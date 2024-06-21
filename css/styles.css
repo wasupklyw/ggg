@@ -1,0 +1,163 @@
+html{
+	scroll-behavior: smooth;
+}
+body {
+	line-height: 1;
+	margin: 0;
+	font-family: Helvetica;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header {
+	background-color: #ffffff;
+	height: auto;
+	width: 100%;
+	margin: 0;
+	color: white;
+	position: relative;
+}
+
+.container_header{
+	padding: 0px;
+	margin: 0;
+}
+.headers{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+} 
+.logo{
+	text-align: center;
+}
+.logo img{
+	padding: 10px 80px;
+	width: 100px;
+	height: 100px;
+}
+.buttons_header{
+	width: 100%;
+}
+.buttons_header img{
+	height: 12px;
+}
+.buttons_header ul {
+	text-align: right;
+	list-style: none;
+	padding: 28px;
+
+}
+.buttons_header ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 1.0em 0 0;
+	padding: 0;
+    width: 15vh;
+
+}
+.buttons_header ul li a {
+	display: block;
+	font-size: 12px;
+    font-weight: bold; 
+	text-decoration: none;
+	text-align: center;
+	border:none;
+	padding: 15px 10px;
+	border-radius: 10px;
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.144);
+	transition-duration: 0.4s;
+	color: #000000;
+}
+.buttons_header ul li a:hover {
+		background-color: rgb(252, 158, 16);
+		color: #ffffff;
+}
+.line {
+    border-bottom: 30px solid rgb(252, 158, 16); /* Параметры линии */
+   }
+
+.container_information{
+	margin: 100px;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 10%;
+	text-align: center;
+	list-style: none;
+	align-items: center;
+
+}
+
+.container_information div{
+	margin: 50px;
+}
+.text{
+	margin-left: auto;
+    margin-right: auto;
+	text-align: left;
+	height: 30%;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.144);
+	padding: 50px;
+}
+.text p{
+	font-size: large;
+	
+}
+.formgoogle{
+	height: 500px;
+	overflow-y:hidden;
+    width: 100%;
+	border: solid 0px rgb(255, 255, 255);
+
+    
+}
+.formgoogle2{
+	height: 500px;
+	overflow-y:hidden;
+    width: 100%;
+	border: solid 0px rgb(255, 255, 255);
+}
+.container_social{
+    bottom: 0;
+    width: 100%;
+	height: auto;
+	background-color:rgb(252, 158, 16);
+    color: rgb(255, 255, 255);
+	
+}
+.container_social h1{
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+.container_social h2{
+	padding-bottom: 25px;
+}
+
+.container_social img{
+	margin-bottom: 50px;
+    width: 6%;
+}
+.container_social div{
+	text-align: center;
+}
+.adress{
+	text-align: left;
+	padding: 50px;
+	background-color:rgba(209, 126, 1, 0.925);
+	color: rgb(255, 255, 255);
+	height: 100px;
+	
+}
+.adress li{
+	list-style: none;
+	padding-top: 5px;
+	
+}
+.adress a {
+	text-decoration: none;
+	color: #ffffff;
+}
